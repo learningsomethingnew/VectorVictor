@@ -10,33 +10,42 @@ class LinearAlgebra():
         return (num_rows, )
 
     def vector_add(self, a_vector1, a_vector2):
-        if self.shape(a_vector1) == self.shape(a_vector2):
+        if self.vector_shape_error(a_vector1, a_vector2):
             temp_vector = []
             for i, (d, e) in enumerate(zip(a_vector1, a_vector2)):
                 temp_vector.append(d + e)
             return temp_vector
-        else:
-            raise ShapeError("Two Vectors have different shapes bro")
 
     def vector_sub(self, a_vector1, a_vector2):
-        if self.shape(a_vector1) == self.shape(a_vector2):
+        if self.vector_shape_error(a_vector1, a_vector2):
             temp_vector = []
             for i, (d, e) in enumerate(zip(a_vector1, a_vector2)):
                 temp_vector.append(d - e)
             return temp_vector
-        else:
-            raise ShapeError("Two Vectors have different shapes bro")
+
 
     def vector_sum(self, *args):
-        lengths =
-        return[sum(a) for a in zip(*args)]
+        if self.vector_shape_error(*args):
+            return[sum(a) for a in zip(*args)]
+        #else:
+           # raise ShapeError("Two Vectors have different shapes bro")
 
-
-
+    def vector_shape_error(self, *args):
+        # if self.shape(a_vector1) == self.shape(a_vector2):
+        #     return True
+        # else:
+        #     raise ShapeError("Two Vectors have different shapes bro")
+        for a in args:
+            print(list(zip(*args)))
 
 class ShapeError(Exception):
     pass
 
 if __name__ == '__main__':
     f  = LinearAlgebra()
-    f.shape([1])
+    v = [1, 3, 0]
+    w = [0, 2, 4]
+    u = [1, 1, 1]
+    y = [10, 20, 30]
+
+    f.vector_shape_error(v,w,u,y)
