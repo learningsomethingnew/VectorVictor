@@ -4,7 +4,6 @@
     <list default="true" id="a54bb2f0-5d55-4a4c-89b4-9094cc8e0a4f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinearAlgebra.py" afterPath="$PROJECT_DIR$/LinearAlgebra.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linear_algebra_tests.py" afterPath="$PROJECT_DIR$/linear_algebra_tests.py" />
     </list>
     <ignored path="VectorVictor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
           <file leaf-file-name="LinearAlgebra.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/LinearAlgebra.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
-                  <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+                <state relative-caret-position="407">
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -54,8 +53,8 @@
           <file leaf-file-name="linear_algebra_tests.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/linear_algebra_tests.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="197">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="16" />
+                <state relative-caret-position="-898">
+                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
@@ -407,21 +406,28 @@
       <option name="project" value="LOCAL" />
       <updated>1459987879826</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First few tests down. *args.... ARGHH!">
+      <created>1460000141751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460000141751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Nosetest_test_vector_add - 2016.04.06 at 22h 04m 28s.xml">
       <configuration name="Nosetest test_vector_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_vector_sum - 2016.04.06 at 15h 39m 04s.xml">
-      <configuration name="Nosetest test_vector_sum" configurationId="tests" />
+    <history-entry file="Nosetest_test_vector_add - 2016.04.07 at 00h 19m 08s.xml">
+      <configuration name="Nosetest test_vector_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_vector_sum - 2016.04.06 at 15h 39m 17s.xml">
-      <configuration name="Nosetest test_vector_sum" configurationId="tests" />
+    <history-entry file="Nosetest_test_vector_add - 2016.04.07 at 00h 19m 48s.xml">
+      <configuration name="Nosetest test_vector_add" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_vector_sum - 2016.04.06 at 15h 39m 51s.xml">
-      <configuration name="Nosetest test_vector_sum" configurationId="tests" />
+    <history-entry file="Nosetest_test_vector_add - 2016.04.07 at 00h 21m 06s.xml">
+      <configuration name="Nosetest test_vector_add" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetest_test_vector_sum - 2016.04.06 at 15h 40m 05s.xml">
       <configuration name="Nosetest test_vector_sum" configurationId="tests" />
@@ -451,7 +457,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5024665" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319149" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.49753347" order="-1" side_tool="false" content_ui="tabs" />
@@ -507,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linear_algebra_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="-898">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -517,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearAlgebra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="407">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
